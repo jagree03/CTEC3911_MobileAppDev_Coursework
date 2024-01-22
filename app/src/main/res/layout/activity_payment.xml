@@ -1,0 +1,274 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PaymentActivity">
+
+    <TextView
+        android:id="@+id/textView_Payment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="142dp"
+        android:layout_marginTop="7dp"
+        android:layout_marginEnd="143dp"
+        android:text="Payment"
+        android:textAlignment="center"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptions"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_debitcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="11dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="45dp"
+        android:text="Debit Card"
+        android:textSize="20sp"
+        android:translationX="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardHolderName"
+        app:layout_constraintEnd_toStartOf="@+id/textView_paypal"
+        app:layout_constraintStart_toEndOf="@+id/textView_creditcard"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptions" />
+
+    <TextView
+        android:id="@+id/textView_paypal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="26dp"
+        android:layout_marginEnd="69dp"
+        android:layout_marginBottom="55dp"
+        android:text="PayPal"
+        android:textSize="20sp"
+        android:translationX="-5dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardHolderName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_debitcard"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptions" />
+
+    <TextView
+        android:id="@+id/textView_creditcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="41dp"
+        android:layout_marginTop="26dp"
+        android:layout_marginBottom="55dp"
+        android:text="Credit Card"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardHolderName"
+        app:layout_constraintEnd_toStartOf="@+id/textView_debitcard"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptions" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PaymentOptions"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="47dp"
+        android:layout_marginEnd="64dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView_debitcard"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Payment">
+
+        <ImageButton
+            android:id="@+id/imageButton_creditcard"
+            android:layout_width="93dp"
+            android:layout_height="87dp"
+            android:layout_margin="0dp"
+            android:background="@null"
+            android:onClick="creditCardClicked"
+            android:scaleType="fitStart"
+            app:srcCompat="@drawable/card" />
+
+        <ImageButton
+            android:id="@+id/imageButton_debitcard"
+            android:layout_width="93dp"
+            android:layout_height="87dp"
+            android:background="@null"
+            android:onClick="debitCardClicked"
+            android:scaleType="fitStart"
+            android:translationX="15dp"
+            app:srcCompat="@drawable/card" />
+
+        <ImageButton
+            android:id="@+id/imageButton_paypal"
+            android:layout_width="93dp"
+            android:layout_height="87dp"
+            android:background="@null"
+            android:scaleType="fitStart"
+            android:translationX="30dp"
+            app:srcCompat="@drawable/paypal" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PaymentOptionsCardHolderName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="23dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_debitcard">
+
+        <TextView
+            android:id="@+id/textView_CardholderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cardholder Name:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_CardholderName"
+            android:layout_width="187dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Name On Card"
+            android:inputType="text"
+            android:translationX="5dp"
+            android:translationY="-4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PaymentOptionsCardNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="70dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardExpiration"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptionsCardHolderName">
+
+        <TextView
+            android:id="@+id/textView_CardNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card number:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_CardNumber"
+            android:layout_width="187dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="Number On Card"
+            android:inputType="number"
+            android:translationX="5dp"
+            android:translationY="-4dp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PaymentOptionsCardExpiration"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="116dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_PaymentOptionsCardCVV"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptionsCardNumber">
+
+        <TextView
+            android:id="@+id/textView_CardExpiration"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card expiration:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_CardExpiration"
+            android:layout_width="119dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="MM/YY"
+            android:inputType="date" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_PaymentOptionsCardCVV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="185dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_SavePaymentDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptionsCardExpiration">
+
+        <TextView
+            android:id="@+id/textView_CardCVV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Card CVV:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_CardCVV"
+            android:layout_width="107dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="CVV"
+            android:inputType="number"
+            android:translationX="5dp"
+            android:translationY="-4dp" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox_SavePaymentDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="17dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginBottom="10dp"
+        android:text="Save Payment Details for faster checkout in future"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnPay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_PaymentOptionsCardCVV" />
+
+    <TextView
+        android:id="@+id/textView_OrderTotalPaymentScreenLabelAndValue"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="41dp"
+        android:layout_marginEnd="72dp"
+        android:layout_marginBottom="28dp"
+        android:text="Order Total: £ 0.00"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/btnPay"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_SavePaymentDetails" />
+
+    <Button
+        android:id="@+id/btnPay"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="26dp"
+        android:onClick="goToOrderEnd"
+        android:text="Pay"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_OrderTotalPaymentScreenLabelAndValue"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_SavePaymentDetails" />
+</androidx.constraintlayout.widget.ConstraintLayout>

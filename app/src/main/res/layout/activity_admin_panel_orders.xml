@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel_OrdersActivity">
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderCustomerOrderStatus"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="102dp"
+        android:layout_marginBottom="34dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderbuttons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderCustomerOrderTime">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderCustomerOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Status: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderCustomerOrderStatus"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="text"
+            android:inputType="text"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderCustomerOrderTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="118dp"
+        android:layout_marginBottom="14dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderCustomerOrderStatus"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderCustomerOrderDate">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderCustomerOrderTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Time: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderCustomerOrderTime"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="time"
+            android:inputType="time"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderCustomerOrderDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderCustomerOrderTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderCustomerFullName">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderCustomerOrderDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Date: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderCustomerOrderDate"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="date"
+            android:inputType="date"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderCustomerFullName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="13dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderCustomerOrderDate"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderCustomerId">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderCustomerFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Full Name: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderCustomerFullName"
+            android:layout_width="150dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="fullname"
+            android:inputType="text"
+            android:textAlignment="textStart" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderCustomerId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="191dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderCustomerFullName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderId">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderCustomerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer id: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderCustomerId"
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_ManageCustomerOrdersTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="62dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="63dp"
+        android:layout_marginBottom="10dp"
+        android:text="Manage Customer Orders"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/ListView_ManageCustomerOrders"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/ListView_ManageCustomerOrders"
+        android:layout_width="399dp"
+        android:layout_height="165dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="5dp"
+        android:layout_marginBottom="15dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ManageCustomerOrdersTitle" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="7dp"
+        android:layout_marginEnd="239dp"
+        android:layout_marginBottom="15dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCusOrderCustomerId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListView_ManageCustomerOrders">
+
+        <TextView
+            android:id="@+id/textView_ManageCusOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:text="Order id: "
+            android:textSize="25sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCusOrderId"
+            android:layout_width="65dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCusOrderbuttons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCusOrderCustomerOrderStatus">
+
+        <Button
+            android:id="@+id/btnManageCustomerOrdersRefresh"
+            android:layout_width="130dp"
+            android:layout_height="83dp"
+            android:text="Refresh List" />
+
+        <Button
+            android:id="@+id/btnManageCustomerOrdersUpdateStatusButton"
+            android:layout_width="120dp"
+            android:layout_height="83dp"
+            android:onClick="goToUpdateOrderStatus"
+            android:text="Update order status"
+            android:textSize="15sp"
+            android:translationY="-10dp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

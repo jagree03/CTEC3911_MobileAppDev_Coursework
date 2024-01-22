@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout_listview_view_feedback_customer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Layout_listview_view_feedback_customer">
+
+    <TextView
+        android:id="@+id/textView_NameOfReviewer"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content"
+        android:text="Anonymous User"
+        android:translationX="10dp" />
+
+    <RatingBar
+        android:id="@+id/view_ratingBar"
+        android:layout_width="240dp"
+        android:layout_height="wrap_content"
+        android:numStars="5"
+        android:translationX="10dp" />
+
+    <TextView
+        android:id="@+id/textView_CommentReview"
+        android:layout_width="400dp"
+        android:layout_height="50dp"
+        android:text="TextView"
+        android:translationX="10dp" />
+
+    <View
+        android:id="@+id/view_divider"
+        android:layout_width="match_parent"
+        android:layout_height="10dp"
+        android:layout_weight="0"
+        android:background="?android:attr/listDivider"
+        android:backgroundTint="#CA0E0E"
+        android:translationY="10dp" />
+
+</LinearLayout>

@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel_CafeMenuActivity">
+
+    <TextView
+        android:id="@+id/textView_ManageCafeMenuItemsTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="23dp"
+        android:text="MANAGE CAFE MENU ITEMS"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/ListView_ManageCafeMenuItems"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/ListView_ManageCafeMenuItems"
+        android:layout_width="371dp"
+        android:layout_height="262dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="11dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCafeMenuItemsProdId"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ManageCafeMenuItemsTitle" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCafeMenuItemsProdId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="7dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_AddNewItemProdName"
+        app:layout_constraintEnd_toStartOf="@+id/textView_ManageCafeMenuItemsTotalNumOfProds"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListView_ManageCafeMenuItems">
+
+        <TextView
+            android:id="@+id/textView_ManageCafeMenuItemsProdId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ProdId:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_ManageCafeMenuItemsProdId"
+            android:layout_width="73dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="0"
+            android:inputType="number"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_AddNewItemProdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="10dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_AddNewItemProdPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCafeMenuItemsProdId">
+
+        <TextView
+            android:id="@+id/textView_AddNewItemProdName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Name:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewItemProdName"
+            android:layout_width="190dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="prodname"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_AddNewItemProdPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="11dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_AddNewItemProdImage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_AddNewItemProdName">
+
+        <TextView
+            android:id="@+id/textView_AddNewItemProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Price:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewItemProdPrice"
+            android:layout_width="wrap_content"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="0.00"
+            android:inputType="numberDecimal"
+            android:textAlignment="center" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_AddNewItemProdImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="14dp"
+        android:layout_marginBottom="12dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/checkBox_ManageCafeMenuItemsProdAvailable"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_AddNewItemProdPrice">
+
+        <TextView
+            android:id="@+id/textView_AddNewItemProdImage"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Product Image:"
+            android:textSize="23sp" />
+
+        <EditText
+            android:id="@+id/editText_AddNewItemProdImage"
+            android:layout_width="190dp"
+            android:layout_height="48dp"
+            android:ems="10"
+            android:hint="image link"
+            android:inputType="text" />
+    </LinearLayout>
+
+    <CheckBox
+        android:id="@+id/checkBox_ManageCafeMenuItemsProdAvailable"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="256dp"
+        android:layout_marginBottom="48dp"
+        android:text="Is Available"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCafeMenuKeyButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_AddNewItemProdImage" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCafeMenuKeyButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="1dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_ManageCafeMenuItemsProdAvailable">
+
+        <Button
+            android:id="@+id/btnManageCafeMenuItemsRefreshList"
+            android:layout_width="98dp"
+            android:layout_height="60dp"
+            android:text="Refresh List"
+            android:textAlignment="center"
+            android:textSize="13sp"
+            android:translationY="-8dp" />
+
+        <Button
+            android:id="@+id/btnManageCafeMenuItemsUpdateItem"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:onClick="update"
+            android:text="Update"
+            android:textAlignment="center"
+            android:textSize="13sp" />
+
+        <Button
+            android:id="@+id/btnManageCafeMenuItemsRemoveItem"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:onClick="remove"
+            android:text="Remove"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+
+        <Button
+            android:id="@+id/btnManageCafeMenuItemsAddItem"
+            android:layout_width="88dp"
+            android:layout_height="60dp"
+            android:onClick="goToAddItem"
+            android:text="Add"
+            android:textAlignment="center"
+            android:textSize="12sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView_ManageCafeMenuItemsTotalNumOfProds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="36dp"
+        android:text="Total No of Products: 0"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_AddNewItemProdName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/LinearLayout_ManageCafeMenuItemsProdId"
+        app:layout_constraintTop_toBottomOf="@+id/ListView_ManageCafeMenuItems" />
+
+    <EditText
+        android:id="@+id/editText_cafemenucategory"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:ems="10"
+        android:inputType="text"
+        android:text="Category: Coffee, Other_Drinks, Biscuits, Cakes"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCafeMenuKeyButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/checkBox_ManageCafeMenuItemsProdAvailable" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

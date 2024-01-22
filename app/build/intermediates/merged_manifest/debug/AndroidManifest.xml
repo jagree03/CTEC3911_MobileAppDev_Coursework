@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.applicationloginsystem"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="21"
+        android:targetSdkVersion="31" />
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+        android:debuggable="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="cafeoasis"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:testOnly="true"
+        android:theme="@style/Theme.ApplicationLoginSystem" >
+        <activity
+            android:name="com.example.cafeoasis.Layout_listview_mypurchases"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.MyPurchases"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.MainActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.Layout_listview_admin_manageorders"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.Layout_listview_admin_managecafeitems"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.Layout_listview_view_feedback_customer"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.Layout_listview_shoppingcart"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_CustomerPaymentDataActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_OrdersUpdateStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_AccountsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_CafeMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.AdminPanel_HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.ViewReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.InputFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.OrderEndActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.ShoppingCartActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.RegisterAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name="com.example.cafeoasis.SplashActivity"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

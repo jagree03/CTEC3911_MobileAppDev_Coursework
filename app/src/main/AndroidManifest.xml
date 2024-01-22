@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cafeoasis">
+
+    <supports-screens
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="cafeoasis"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ApplicationLoginSystem">
+        <activity
+            android:name=".Layout_listview_mypurchases"
+            android:exported="false" />
+        <activity
+            android:name=".MyPurchases"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Layout_listview_admin_manageorders"
+            android:exported="false" />
+        <activity
+            android:name=".Layout_listview_admin_managecafeitems"
+            android:exported="false" />
+        <activity
+            android:name=".Layout_listview_view_feedback_customer"
+            android:exported="false" />
+        <activity
+            android:name=".Layout_listview_shoppingcart"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_FeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_CustomerPaymentDataActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_OrdersUpdateStatusActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_OrdersActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_AccountsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_AddItemActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_CafeMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".AdminPanel_HomeActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ViewReviewsActivity"
+            android:exported="false" />
+        <activity
+            android:name=".InputFeedbackActivity"
+            android:exported="false" />
+        <activity
+            android:name=".OrderEndActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PaymentActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ShoppingCartActivity"
+            android:exported="false" />
+        <activity
+            android:name=".ProfileActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainMenuActivity"
+            android:exported="false" />
+        <activity
+            android:name=".RegisterAccountActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoginActivity"
+            android:exported="false" />
+        <activity
+            android:name=".SplashActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

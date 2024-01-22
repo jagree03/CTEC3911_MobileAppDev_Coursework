@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel_OrdersUpdateStatusActivity">
+
+    <TextView
+        android:id="@+id/textView_UpdateOrderStatusTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="83dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="83dp"
+        android:layout_marginBottom="24dp"
+        android:text="Update Order Status"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_UpdateOrderStatusDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <RadioGroup
+        android:id="@+id/rg_statuses"
+        android:layout_width="207dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="168dp"
+        android:layout_marginBottom="61dp"
+        app:layout_constraintBottom_toTopOf="@+id/btnUpdateStatusAndNotify"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_UpdateOrderStatusDetails">
+
+        <RadioButton
+            android:id="@+id/radioButton_preparing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Preparing Order"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton_ready"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ready for collection"
+            android:textSize="18sp" />
+
+        <RadioButton
+            android:id="@+id/radioButton_cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Cancelled"
+            android:textSize="18sp" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnUpdateStatusAndNotify"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="37dp"
+        android:onClick="updateRecord"
+        android:text="Update Order Status And Notify Customer"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_UpdateOrderStatusCusPhoneNumber"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/rg_statuses" />
+
+    <TextView
+        android:id="@+id/textView_UpdateOrderStatusCusPhoneNumber"
+        android:layout_width="358dp"
+        android:layout_height="69dp"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginBottom="129dp"
+        android:text="Customer's Phone Number is: "
+        android:textAlignment="center"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnUpdateStatusAndNotify" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_UpdateOrderStatusDetails"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginEnd="161dp"
+        android:layout_marginBottom="78dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/rg_statuses"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_UpdateOrderStatusTitle">
+
+        <TextView
+            android:id="@+id/textView_UpdateOrderStatusID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Id: "
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_UpdateOrderStatusCustomerId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Id: "
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_UpdateOrderStatusCustomerFullName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Customer Full Name:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_UpdateOrderStatusCustomerOrderStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Status:"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

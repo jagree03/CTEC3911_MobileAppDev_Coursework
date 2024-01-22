@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/textView_Password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginEnd="140dp"
+        android:layout_marginBottom="11dp"
+        android:text="Password:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Username" />
+
+    <TextView
+        android:id="@+id/textView_Username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="138dp"
+        android:layout_marginEnd="139dp"
+        android:text="Username:"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/editText_Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_PeopleInCafe" />
+
+    <EditText
+        android:id="@+id/editText_Username"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="97dp"
+        android:background="#ffc107"
+        android:ems="10"
+        android:hint="E.g. Steve123"
+        android:inputType="text"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Password"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Username" />
+
+    <EditText
+        android:id="@+id/editText_Password"
+        android:layout_width="218dp"
+        android:layout_height="48dp"
+        android:layout_marginStart="96dp"
+        android:layout_marginEnd="97dp"
+        android:layout_marginBottom="20dp"
+        android:background="#ffc107"
+        android:ems="10"
+        android:inputType="textPassword"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Attempts"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Password" />
+
+    <ImageView
+        android:id="@+id/imageView_PeopleInCafe"
+        android:layout_width="413dp"
+        android:layout_height="282dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Username"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/imageofpeopleincafe" />
+
+    <TextView
+        android:id="@+id/textView_Attempts"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="105dp"
+        android:layout_marginEnd="106dp"
+        android:layout_marginBottom="19dp"
+        android:text="3 / 3 attempts remaining."
+        android:textColor="#FF0000"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnLogin"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editText_Password" />
+
+    <Button
+        android:id="@+id/btnLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:onClick="loginButton"
+        android:text="Login"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnRegister"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Attempts" />
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginBottom="90dp"
+        android:onClick="goToRegistration"
+        android:text="Register"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin" />
+</androidx.constraintlayout.widget.ConstraintLayout>

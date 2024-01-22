@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminPanel_CustomerPaymentDataActivity">
+
+    <TextView
+        android:id="@+id/textView_ManageCustomerPaymentDataTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="21dp"
+        android:layout_marginBottom="9dp"
+        android:text="Manage Customer Payment Data"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/ListView_ManageCustomerPaymentData"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ListView
+        android:id="@+id/ListView_ManageCustomerPaymentData"
+        android:layout_width="399dp"
+        android:layout_height="288dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_ManageCustomerPaymentDataDetails"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ManageCustomerPaymentDataTitle" />
+
+    <Button
+        android:id="@+id/btnManageCustomerPaymentDataRefreshList"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="34dp"
+        android:text="Refresh List"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_ManageCustomerPaymentDataDetails" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_ManageCustomerPaymentDataDetails"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="11dp"
+        android:layout_marginEnd="91dp"
+        android:layout_marginBottom="110dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/btnManageCustomerPaymentDataRefreshList"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ListView_ManageCustomerPaymentData">
+
+        <TextView
+            android:id="@+id/textView_ManageCusPaymentDataId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Id:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_ManageCusPaymentDataOrderId"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Order Id:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_ManageCusPaymentDataPaymentType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Type:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_ManageCusPaymentDataAmount"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Amount:"
+            android:textSize="23sp" />
+
+        <TextView
+            android:id="@+id/textView_ManageCusPaymentDataPaymentDate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Payment Date:"
+            android:textSize="23sp" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

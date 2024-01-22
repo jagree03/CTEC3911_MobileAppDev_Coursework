@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainMenuActivity">
+
+    <Button
+        android:id="@+id/button_myPurchases"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="18dp"
+        android:layout_marginTop="316dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="66dp"
+        android:onClick="goToMyPurchases"
+        android:text="my purchases"
+        android:textSize="10sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/LinearLayout_MenuButtons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton_prev" />
+
+    <TextView
+        android:id="@+id/textView_Menu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="33dp"
+        android:layout_marginBottom="49dp"
+        android:text="Menu"
+        android:textSize="35sp"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_categoryDropDown"
+        app:layout_constraintEnd_toStartOf="@+id/LinearLayout_MenuIcons"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Spinner
+        android:id="@+id/spinner_categoryDropDown"
+        android:layout_width="194dp"
+        android:layout_height="55dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginEnd="173dp"
+        android:layout_marginBottom="51dp"
+        android:background="@android:drawable/btn_dropdown"
+        android:spinnerMode="dropdown"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_Product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Menu" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_MenuIcons"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="149dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_Product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView_Menu"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageButton
+            android:id="@+id/imageButton_profileSettings"
+            android:layout_width="52dp"
+            android:layout_height="53dp"
+            android:background="@null"
+            android:onClick="goToProfileSettings"
+            app:srcCompat="@drawable/profile_settings" />
+
+        <ImageButton
+            android:id="@+id/imageButton_cart"
+            android:layout_width="52dp"
+            android:layout_height="53dp"
+            android:background="@null"
+            android:onClick="goToShoppingCart"
+            app:srcCompat="@drawable/cart" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView_Product"
+        android:layout_width="187dp"
+        android:layout_height="202dp"
+        android:layout_marginStart="27dp"
+        android:layout_marginBottom="23dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_ProdName"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton_next"
+        app:layout_constraintStart_toEndOf="@+id/imageButton_prev"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_categoryDropDown"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <ImageButton
+        android:id="@+id/imageButton_prev"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="26dp"
+        android:layout_marginTop="121dp"
+        android:layout_marginBottom="447dp"
+        android:background="@null"
+        android:onClick="buttonPrevPresed"
+        android:rotationX="0"
+        android:rotationY="180"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView_Product"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/spinner_categoryDropDown"
+        app:srcCompat="@drawable/arrow" />
+
+    <ImageButton
+        android:id="@+id/imageButton_next"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="22dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginEnd="31dp"
+        android:layout_marginBottom="447dp"
+        android:background="@null"
+        android:onClick="buttonNextPresed"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView_Product"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_MenuIcons"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/textView_ProdName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginEnd="146dp"
+        android:layout_marginBottom="9dp"
+        android:text="[product name]"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/textView_ProdPrice"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_Product" />
+
+    <TextView
+        android:id="@+id/textView_ProdPrice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="152dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="150dp"
+        android:layout_marginBottom="38dp"
+        android:text="[product price]"
+        android:textAlignment="center"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_MenuButtons"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ProdName" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_MenuButtons"
+        android:layout_width="wrap_content"
+        android:layout_height="161dp"
+        android:layout_marginStart="123dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="120dp"
+        android:layout_marginBottom="50dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_ProdPrice">
+
+        <Button
+            android:id="@+id/btnAddFeedback"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="goToAddFeedbackScreen"
+            android:text="Add Feedback" />
+
+        <Button
+            android:id="@+id/btnReadFeedback"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="goToReadFeedbackScreen"
+            android:text="Read Reviews" />
+
+        <Button
+            android:id="@+id/btnAddToCart"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:onClick="addToCart"
+            android:text="Add to Cart" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnLogOutMenu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="33dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="29dp"
+        android:onClick="logout"
+        android:text="logout"
+        app:layout_constraintBottom_toTopOf="@+id/spinner_categoryDropDown"
+        app:layout_constraintEnd_toStartOf="@+id/textView_Menu"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_selectcategorylbl"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="28dp"
+        android:layout_marginTop="53dp"
+        android:layout_marginEnd="46dp"
+        android:layout_marginBottom="68dp"
+        android:text="select a category"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_Product"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/spinner_categoryDropDown"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_MenuIcons" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

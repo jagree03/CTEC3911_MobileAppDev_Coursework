@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SplashActivity">
+
+    <TextView
+        android:id="@+id/textView_Welcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="117dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="117dp"
+        android:text="WELCOME TO"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/imageView_logo"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView_logo"
+        android:layout_width="247dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_promotionalTitle"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/logo_transparent" />
+
+    <TextView
+        android:id="@+id/textView_promotionalTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="26dp"
+        android:layout_marginBottom="20dp"
+        android:text="Check out some of our deals!"
+        android:textSize="28sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_promotionalMsg2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_logo" />
+
+    <TextView
+        android:id="@+id/textView_promotionalMsg1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="67dp"
+        android:layout_marginBottom="12dp"
+        android:text="10% off all items if you purchase on New Years Day."
+        app:layout_constraintBottom_toTopOf="@+id/textView_promotionalMsg3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_promotionalMsg2" />
+
+    <TextView
+        android:id="@+id/textView_promotionalMsg2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="12dp"
+        android:layout_marginBottom="10dp"
+        android:text="Buy one get one free if you purchase a Latte on 30th January"
+        app:layout_constraintBottom_toTopOf="@+id/textView_promotionalMsg1"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_promotionalTitle" />
+
+    <TextView
+        android:id="@+id/textView_promotionalMsg3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="21dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="38dp"
+        android:text="5% off coupon &quot;#OASIS4LIFE&quot; on all orders that include cakes"
+        app:layout_constraintBottom_toTopOf="@+id/btnNext"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_promotionalMsg1" />
+
+    <Button
+        android:id="@+id/btnNext"
+        android:layout_width="148dp"
+        android:layout_height="71dp"
+        android:layout_marginStart="131dp"
+        android:layout_marginEnd="132dp"
+        android:layout_marginBottom="67dp"
+        android:onClick="goToLoginSignUpPage"
+        android:text="NEXT"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_promotionalMsg3" />
+
+    <TextView
+        android:id="@+id/textView_Jagjeet"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="175dp"
+        android:layout_marginTop="31dp"
+        android:layout_marginEnd="178dp"
+        android:layout_marginBottom="43dp"
+        android:text="By Jagjeet Reehal P2652829"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNext" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

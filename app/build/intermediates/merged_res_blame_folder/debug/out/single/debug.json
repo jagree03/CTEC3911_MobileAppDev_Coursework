@@ -1,0 +1,214 @@
+[
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_profile.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_profile.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_lock.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\lock.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_imageofpeopleincafe.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\imageofpeopleincafe.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_image_of_people_in_cafe_2.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\image_of_people_in_cafe_2.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout_listview_mypurchases.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_layout_listview_mypurchases.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_order_end.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_order_end.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_eye.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\eye.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout_listview_admin_managecafeitems.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_layout_listview_admin_managecafeitems.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_phone.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\phone.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_card.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\card.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout_listview_shoppingcart.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_layout_listview_shoppingcart.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_orders_update_status.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_orders_update_status.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_profile_settings.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\profile_settings.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_cafe_menu.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_cafe_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main_menu.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_main_menu.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_feedback.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_feedback.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_input_feedback.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_input_feedback.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-anydpi-v24_ic_launcher_foreground.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\generated\\res\\pngs\\debug\\drawable-anydpi-v24\\ic_launcher_foreground.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable_ic_launcher_background.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable\\ic_launcher_background.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_register_account.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_register_account.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_my_purchases.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_my_purchases.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_home.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_home.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-hdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_payment.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_payment.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_eye_close.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\eye_close.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_add_item.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_add_item.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_mail.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\mail.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_customer_payment_data.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_customer_payment_data.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-mdpi_ic_launcher_round.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher_round.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-xxxhdpi_ic_launcher.webp.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.webp"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout_listview_admin_manageorders.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_layout_listview_admin_manageorders.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_orders.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_orders.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_layout_listview_view_feedback_customer.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_layout_listview_view_feedback_customer.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_shopping_cart.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_shopping_cart.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\mipmap-anydpi-v26_ic_launcher_round.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\mipmap-anydpi-v26\\ic_launcher_round.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_main.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_main.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_paypal.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\paypal.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_login.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_login.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_splash.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_splash.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_admin_panel_accounts.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_admin_panel_accounts.xml"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_arrow.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\arrow.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_logo_transparent.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\logo_transparent.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_avatar.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\avatar.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\drawable-xxxhdpi_cart.png.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\drawable-xxxhdpi\\cart.png"
+    },
+    {
+        "merged": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\build\\intermediates\\merged_res\\debug\\layout_activity_view_reviews.xml.flat",
+        "source": "D:\\AndroidStudioSDK\\projects\\cafeoasis\\app\\src\\main\\res\\layout\\activity_view_reviews.xml"
+    }
+]

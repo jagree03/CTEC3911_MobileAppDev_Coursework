@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InputFeedbackActivity">
+
+    <TextView
+        android:id="@+id/textView_UpdateFeedbackAnyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="36dp"
+        android:layout_marginEnd="37dp"
+        android:layout_marginBottom="18dp"
+        android:text="You can update your feedback / review any time."
+        android:textAlignment="center"
+        android:textSize="15sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnSubmit"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_RatingBar" />
+
+    <TextView
+        android:id="@+id/textView_InputFeedbackTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="18dp"
+        android:layout_marginBottom="36dp"
+        android:text="INPUT FEEDBACK (ADD A REVIEW)"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_Comment"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView_Comment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="271dp"
+        android:layout_marginBottom="12dp"
+        android:text="Comment:"
+        android:textSize="23sp"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_CommentTips"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_InputFeedbackTitle" />
+
+    <EditText
+        android:id="@+id/editTextTextMultiLine_CommentInput"
+        android:layout_width="352dp"
+        android:layout_height="170dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="23dp"
+        android:background="#ffc107"
+        android:ems="10"
+        android:gravity="start|top"
+        android:hint="Enter your comment here"
+        android:inputType="textMultiLine"
+        app:layout_constraintBottom_toTopOf="@+id/LinearLayout_RatingBar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/LinearLayout_CommentTips" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_CommentTips"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="27dp"
+        android:layout_marginBottom="17dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextMultiLine_CommentInput"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_Comment">
+
+        <TextView
+            android:id="@+id/textView_tip"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- State your opinion, share likes/dislikes"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_tip2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- What could have been done better?"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView_tip3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="- No Inappropriate language allowed"
+            android:textSize="18sp" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_marginBottom="76dp"
+        android:onClick="addFeedback"
+        android:text="Submit"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_UpdateFeedbackAnyTime" />
+
+    <LinearLayout
+        android:id="@+id/LinearLayout_RatingBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginBottom="136dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/textView_UpdateFeedbackAnyTime"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextMultiLine_CommentInput">
+
+        <TextView
+            android:id="@+id/textView_StarRating"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Star Rating:"
+            android:textSize="23sp"
+            android:translationY="10dp" />
+
+        <RatingBar
+            android:id="@+id/ratingBar_StarRating"
+            android:layout_width="236dp"
+            android:layout_height="46dp"
+            android:max="5"
+            android:rating="0" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

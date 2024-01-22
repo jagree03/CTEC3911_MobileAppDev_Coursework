@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".OrderEndActivity">
+
+    <TextView
+        android:id="@+id/textView_NotificationLabel2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="65dp"
+        android:text="Notifications will be sent to your phone number."
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/btnGoBackHome"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_NotificationLabel" />
+
+    <TextView
+        android:id="@+id/textView_NotificationLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="17dp"
+        android:text="Check your phone for notifications regarding your order."
+        android:textAlignment="center"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_NotificationLabel2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_OrderThanksLabel" />
+
+    <TextView
+        android:id="@+id/textView_OrderThanksLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="84dp"
+        android:layout_marginEnd="84dp"
+        android:layout_marginBottom="32dp"
+        android:text="Thanks for ordering."
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_NotificationLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_OrderConfirmMessage" />
+
+    <ImageView
+        android:id="@+id/imageView_PeopleInCafe2"
+        android:layout_width="match_parent"
+        android:layout_height="277dp"
+        android:layout_marginTop="47dp"
+        android:layout_marginBottom="26dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_OrderConfirmMessage"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/image_of_people_in_cafe_2" />
+
+    <TextView
+        android:id="@+id/textView_OrderConfirmMessage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="101dp"
+        android:layout_marginEnd="108dp"
+        android:layout_marginBottom="12dp"
+        android:text="Order Confirmed"
+        android:textColor="#4CAF50"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toTopOf="@+id/textView_OrderThanksLabel"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView_PeopleInCafe2" />
+
+    <Button
+        android:id="@+id/btnGoBackHome"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginBottom="57dp"
+        android:onClick="goToHome"
+        android:text="Back to Home"
+        android:textSize="25dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView_NotificationLabel2" />
+</androidx.constraintlayout.widget.ConstraintLayout>

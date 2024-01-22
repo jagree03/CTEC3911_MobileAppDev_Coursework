@@ -1,0 +1,333 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\cae28ea1e7523946bd511b90e0f73ba6\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:2:1-9:12
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\harde\.gradle\caches\transforms-3\7e8b3c4f14cb468b2a4ee1071a0b2b31\transformed\material-1.3.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\harde\.gradle\caches\transforms-3\0952a8479a1fab92b1d21b6fcd30cd3e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:2:1-11:12
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\f2c625f1b58747a4ae6ed8254822d548\transformed\appcompat-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\132bfa7b9ee74cfd53359053eba7c4f5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\0c0e77644a23b137bd5b8bc61a20b77a\transformed\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\49fd72ba3920b74f36e4087ad93112b0\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\120224ee7219641a7d2bfe61983b7269\transformed\drawerlayout-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\7801d956210926f94321f7a636462366\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\31960e6c82a3a382ef3408d0ef870e6a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\dcacebf951aa6d294afa4223158669af\transformed\transition-1.2.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b2e98dc125295b723590431b6ea15dfd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\402675f11c03940969b6614a82033220\transformed\vectordrawable-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\2efc493352a52ad428475df4a0bf4c18\transformed\viewpager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\e47d3599e12eebc2bf6277acbd85a66f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\049e2f2e2345690501949ba16f8d78aa\transformed\loader-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\4aaf15e65c2f5cba7a14c8a4543a08ef\transformed\jetified-activity-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b804b762fe78de7537a8d49dc7e7fdca\transformed\recyclerview-1.1.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\08a6343e61d8555c25721d208e3a5f58\transformed\customview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:17:1-26:12
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\662e39f0748a84315de60f68945a5652\transformed\cursoradapter-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6648c68f95723abe524bcffd1ce4ad0a\transformed\cardview-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\1711b00ebff759e9086b4a77982c9267\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:17:1-27:12
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\ca421092ee0f3a3d91fb12b770fdc871\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\42d63b8213a21f338653e44d177c5787\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6680850b347f8e8d13fc320e928b8444\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\0d2b46964133c93e875c93e0b14c9802\transformed\interpolator-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\d580fcbe641f3bd8bf4fcb516ea31f53\transformed\documentfile-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\f32cece5b636ff15096237c9be4d23bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.print:print:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\3a26b57c0b0a57c478a0a3fe288a6c2f\transformed\print-1.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\481225c4df4ebd2f995a0531dc78f6e2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\7320c44754f1e76a13add160bbafaf58\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\71b6f3aa6f3dac32fc0b18ee8dfb33c4\transformed\core-runtime-2.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\04ea795f3a257e3ab245f46944f5c4e1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:17:1-24:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+	package
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:3:5-36
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:1-101:12
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:2:11-69
+supports-screens
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:5:5-9:40
+	android:largeScreens
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:6:9-36
+	android:smallScreens
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:8:9-36
+	android:normalScreens
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:7:9-37
+	android:xlargeScreens
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:9:9-37
+application
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:11:5-99:19
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\harde\.gradle\caches\transforms-3\7e8b3c4f14cb468b2a4ee1071a0b2b31\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\harde\.gradle\caches\transforms-3\7e8b3c4f14cb468b2a4ee1071a0b2b31\transformed\material-1.3.0\AndroidManifest.xml:22:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\harde\.gradle\caches\transforms-3\0952a8479a1fab92b1d21b6fcd30cd3e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\harde\.gradle\caches\transforms-3\0952a8479a1fab92b1d21b6fcd30cd3e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:9:5-20
+MERGED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:24:5-89
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\1711b00ebff759e9086b4a77982c9267\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\1711b00ebff759e9086b4a77982c9267\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:24:5-25:19
+	android:appComponentFactory
+		ADDED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:24:18-86
+	android:supportsRtl
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:16:9-35
+	android:label
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:14:9-34
+	android:roundIcon
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:15:9-54
+	android:icon
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:13:9-43
+	android:allowBackup
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:12:9-35
+	android:theme
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:17:9-60
+activity#com.example.cafeoasis.Layout_listview_mypurchases
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:18:9-20:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:20:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:19:13-56
+activity#com.example.cafeoasis.MyPurchases
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:21:9-23:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:23:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:22:13-40
+activity#com.example.cafeoasis.MainActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:24:9-26:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:26:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:25:13-41
+activity#com.example.cafeoasis.Layout_listview_admin_manageorders
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:27:9-29:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:29:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:28:13-63
+activity#com.example.cafeoasis.Layout_listview_admin_managecafeitems
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:30:9-32:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:32:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:31:13-66
+activity#com.example.cafeoasis.Layout_listview_view_feedback_customer
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:33:9-35:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:35:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:34:13-67
+activity#com.example.cafeoasis.Layout_listview_shoppingcart
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:36:9-38:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:38:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:37:13-57
+activity#com.example.cafeoasis.AdminPanel_FeedbackActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:39:9-41:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:41:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:40:13-56
+activity#com.example.cafeoasis.AdminPanel_CustomerPaymentDataActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:42:9-44:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:44:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:43:13-67
+activity#com.example.cafeoasis.AdminPanel_OrdersUpdateStatusActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:46:13-66
+activity#com.example.cafeoasis.AdminPanel_OrdersActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:48:9-50:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:50:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:49:13-54
+activity#com.example.cafeoasis.AdminPanel_AccountsActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:51:9-53:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:53:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:52:13-56
+activity#com.example.cafeoasis.AdminPanel_AddItemActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:54:9-56:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:56:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:55:13-55
+activity#com.example.cafeoasis.AdminPanel_CafeMenuActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:57:9-59:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:59:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:58:13-56
+activity#com.example.cafeoasis.AdminPanel_HomeActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:60:9-62:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:62:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:61:13-52
+activity#com.example.cafeoasis.ViewReviewsActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:63:9-65:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:65:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:64:13-48
+activity#com.example.cafeoasis.InputFeedbackActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:66:9-68:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:68:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:67:13-50
+activity#com.example.cafeoasis.OrderEndActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:69:9-71:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:71:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:70:13-45
+activity#com.example.cafeoasis.PaymentActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:72:9-74:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:74:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:73:13-44
+activity#com.example.cafeoasis.ShoppingCartActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:75:9-77:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:77:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:76:13-49
+activity#com.example.cafeoasis.ProfileActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:78:9-80:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:80:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:79:13-44
+activity#com.example.cafeoasis.MainMenuActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:81:9-83:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:83:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:82:13-45
+activity#com.example.cafeoasis.RegisterAccountActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:84:9-86:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:86:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:85:13-52
+activity#com.example.cafeoasis.LoginActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:87:9-89:40
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:89:13-37
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:88:13-42
+activity#com.example.cafeoasis.SplashActivity
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:90:9-98:20
+	android:exported
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:92:13-36
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:91:13-43
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:93:13-97:29
+action#android.intent.action.MAIN
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:94:17-69
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:94:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:96:17-77
+	android:name
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml:96:27-74
+uses-sdk
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\cae28ea1e7523946bd511b90e0f73ba6\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.core:core-ktx:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\cae28ea1e7523946bd511b90e0f73ba6\transformed\jetified-core-ktx-1.3.2\AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\harde\.gradle\caches\transforms-3\7e8b3c4f14cb468b2a4ee1071a0b2b31\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [com.google.android.material:material:1.3.0] C:\Users\harde\.gradle\caches\transforms-3\7e8b3c4f14cb468b2a4ee1071a0b2b31\transformed\material-1.3.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\harde\.gradle\caches\transforms-3\0952a8479a1fab92b1d21b6fcd30cd3e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.constraintlayout:constraintlayout:2.0.4] C:\Users\harde\.gradle\caches\transforms-3\0952a8479a1fab92b1d21b6fcd30cd3e\transformed\constraintlayout-2.0.4\AndroidManifest.xml:5:5-7:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\f2c625f1b58747a4ae6ed8254822d548\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\f2c625f1b58747a4ae6ed8254822d548\transformed\appcompat-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\132bfa7b9ee74cfd53359053eba7c4f5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager2:viewpager2:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\132bfa7b9ee74cfd53359053eba7c4f5\transformed\jetified-viewpager2-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\0c0e77644a23b137bd5b8bc61a20b77a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\0c0e77644a23b137bd5b8bc61a20b77a\transformed\fragment-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\49fd72ba3920b74f36e4087ad93112b0\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.appcompat:appcompat-resources:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\49fd72ba3920b74f36e4087ad93112b0\transformed\jetified-appcompat-resources-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\120224ee7219641a7d2bfe61983b7269\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.drawerlayout:drawerlayout:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\120224ee7219641a7d2bfe61983b7269\transformed\drawerlayout-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\7801d956210926f94321f7a636462366\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.coordinatorlayout:coordinatorlayout:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\7801d956210926f94321f7a636462366\transformed\coordinatorlayout-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\31960e6c82a3a382ef3408d0ef870e6a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.dynamicanimation:dynamicanimation:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\31960e6c82a3a382ef3408d0ef870e6a\transformed\dynamicanimation-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\dcacebf951aa6d294afa4223158669af\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.transition:transition:1.2.0] C:\Users\harde\.gradle\caches\transforms-3\dcacebf951aa6d294afa4223158669af\transformed\transition-1.2.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b2e98dc125295b723590431b6ea15dfd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable-animated:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b2e98dc125295b723590431b6ea15dfd\transformed\vectordrawable-animated-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\402675f11c03940969b6614a82033220\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.vectordrawable:vectordrawable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\402675f11c03940969b6614a82033220\transformed\vectordrawable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\2efc493352a52ad428475df4a0bf4c18\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.viewpager:viewpager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\2efc493352a52ad428475df4a0bf4c18\transformed\viewpager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\e47d3599e12eebc2bf6277acbd85a66f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.legacy:legacy-support-core-utils:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\e47d3599e12eebc2bf6277acbd85a66f\transformed\legacy-support-core-utils-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\049e2f2e2345690501949ba16f8d78aa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.loader:loader:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\049e2f2e2345690501949ba16f8d78aa\transformed\loader-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\4aaf15e65c2f5cba7a14c8a4543a08ef\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.activity:activity:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\4aaf15e65c2f5cba7a14c8a4543a08ef\transformed\jetified-activity-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b804b762fe78de7537a8d49dc7e7fdca\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.recyclerview:recyclerview:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\b804b762fe78de7537a8d49dc7e7fdca\transformed\recyclerview-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\08a6343e61d8555c25721d208e3a5f58\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.customview:customview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\08a6343e61d8555c25721d208e3a5f58\transformed\customview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.core:core:1.3.2] C:\Users\harde\.gradle\caches\transforms-3\5a4f166e7d8f26485654da5aaf5bf73d\transformed\core-1.3.2\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\662e39f0748a84315de60f68945a5652\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cursoradapter:cursoradapter:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\662e39f0748a84315de60f68945a5652\transformed\cursoradapter-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6648c68f95723abe524bcffd1ce4ad0a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.cardview:cardview:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6648c68f95723abe524bcffd1ce4ad0a\transformed\cardview-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\1711b00ebff759e9086b4a77982c9267\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] C:\Users\harde\.gradle\caches\transforms-3\1711b00ebff759e9086b4a77982c9267\transformed\versionedparcelable-1.1.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\ca421092ee0f3a3d91fb12b770fdc871\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-runtime:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\ca421092ee0f3a3d91fb12b770fdc871\transformed\lifecycle-runtime-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\42d63b8213a21f338653e44d177c5787\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-viewmodel:2.1.0] C:\Users\harde\.gradle\caches\transforms-3\42d63b8213a21f338653e44d177c5787\transformed\lifecycle-viewmodel-2.1.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6680850b347f8e8d13fc320e928b8444\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.savedstate:savedstate:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\6680850b347f8e8d13fc320e928b8444\transformed\jetified-savedstate-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\0d2b46964133c93e875c93e0b14c9802\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.interpolator:interpolator:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\0d2b46964133c93e875c93e0b14c9802\transformed\interpolator-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\d580fcbe641f3bd8bf4fcb516ea31f53\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.documentfile:documentfile:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\d580fcbe641f3bd8bf4fcb516ea31f53\transformed\documentfile-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\f32cece5b636ff15096237c9be4d23bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\f32cece5b636ff15096237c9be4d23bb\transformed\localbroadcastmanager-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\3a26b57c0b0a57c478a0a3fe288a6c2f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.print:print:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\3a26b57c0b0a57c478a0a3fe288a6c2f\transformed\print-1.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\481225c4df4ebd2f995a0531dc78f6e2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\481225c4df4ebd2f995a0531dc78f6e2\transformed\lifecycle-livedata-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\7320c44754f1e76a13add160bbafaf58\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.lifecycle:lifecycle-livedata-core:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\7320c44754f1e76a13add160bbafaf58\transformed\lifecycle-livedata-core-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\71b6f3aa6f3dac32fc0b18ee8dfb33c4\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.arch.core:core-runtime:2.0.0] C:\Users\harde\.gradle\caches\transforms-3\71b6f3aa6f3dac32fc0b18ee8dfb33c4\transformed\core-runtime-2.0.0\AndroidManifest.xml:20:5-44
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\04ea795f3a257e3ab245f46944f5c4e1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+MERGED from [androidx.annotation:annotation-experimental:1.0.0] C:\Users\harde\.gradle\caches\transforms-3\04ea795f3a257e3ab245f46944f5c4e1\transformed\jetified-annotation-experimental-1.0.0\AndroidManifest.xml:20:5-22:41
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		ADDED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
+		INJECTED from D:\AndroidStudioSDK\projects\cafeoasis\app\src\main\AndroidManifest.xml
