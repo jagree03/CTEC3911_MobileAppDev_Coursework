@@ -11,6 +11,6 @@ Other tools used:
 - DB Browser for SQLite
 
 
-Grade: / 100 ( %)
+Grade: 60.75 / 100 (61 %)
 
 Due to lack of time, I did not complete all the features of the application such as implementing a notifications system or allowing the administrator to view customer supplied feedback records and more. I hope to fully complete this system in my own time.
